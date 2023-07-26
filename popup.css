@@ -1,0 +1,59 @@
+body {
+  text-align:center;
+  min-width: 400px;
+  min-height: 100px;
+}
+
+button {
+  position: absolute;
+  top: 5px;
+  right:5px;
+  width: 70px;
+  color:rgb(7, 7, 7);
+  border-width:0px;
+  border-radius:5px;
+  padding:5px;
+  cursor:pointer;
+  font-size: large;
+  margin-bottom: 4px;
+}
+button:hover {
+  border: 1px solid black;
+}
+button:active {
+  background-color:rgb(216, 234, 255);
+}
+#grabGR, #grabGIMG, #grabGV  {
+  background-color:rgb(199, 199, 255);
+}
+#grabYR {
+  background-color: rgb(255, 205, 205);
+}
+
+#host {
+  background-color: rgb(249, 255, 239);
+  border: 1px solid black;
+  font-size: large;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  margin-bottom: 4px;
+}
+
+#list {
+  top:50px;
+  left: 0px;
+  border: 1px solid blac;
+  width: 100%;
+  margin-top: 36px;
+  min-height: 30px;
+  height:60px;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  font-size: 14px;
+}

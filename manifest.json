@@ -1,0 +1,17 @@
+{
+  "name": "Google scraper",
+  "description": "application for copying Google search results",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16":"icons/16.png",
+    "32":"icons/32.png",
+    "48":"icons/48.png",
+    "128":"icons/128.png"
+},
+"action": {
+  "default_popup":"popup.html"
+},
+  "permissions": ["scripting", "activeTab"],
+  "background":{}
+}
