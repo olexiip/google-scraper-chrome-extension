@@ -1,23 +1,25 @@
 function InjectChecker() {
   chrome.tabs.query({active: true}, function(tabs) {
-    var tab = tabs[0];
-    if (tab) {
-
-        let currentUrl = (new URL(tab.url));
-        //alert(currentUrl.protocol);
-        if (currentUrl.protocol !== "chrome:") {
-          chrome.scripting.executeScript(
-            {
-                target:{tabId: tab.id, allFrames: false},
-                func:checkPage
-            },
-            onChecked
-        )
+    tabs.forEach((tab)=>{
+      try {
+        if (tab.url) {
+          let currentUrl = (new URL(tab.url));
+          if (currentUrl.protocol !== "chrome:") {
+            chrome.scripting.executeScript(
+              {
+                  target:{tabId: tab.id, allFrames: false},
+                  func:checkPage
+              },
+              onChecked
+          )
+          }
+        } else {
+  
         }
-    } else {
-        alert("There are no active tabs");
-        return "no host";
-    }
+      } catch {
+  
+      }
+    })
   })
 }
 
