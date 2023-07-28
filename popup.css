@@ -20,25 +20,9 @@ button {
 button:hover {
   border: 1px solid black;
 }
+
 button:active {
   background-color:rgb(216, 234, 255);
-}
-#grabGR, #grabGIMG, #grabGV  {
-  background-color:rgb(199, 199, 255);
-}
-#grabYR {
-  background-color: rgb(255, 205, 205);
-}
-
-#host {
-  background-color: rgb(249, 255, 239);
-  border: 1px solid black;
-  font-size: large;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 30px;
-  margin-bottom: 4px;
 }
 
 #list {
