@@ -1,6 +1,8 @@
 # google-scraper-chrome-extension
 ## Chrome extension for copying Google search results
 
+![img-7](https://github.com/olexiip/google-scraper-chrome-extension/assets/99768521/6df353e9-8605-4ed2-978b-37c093029f25)
+
 Now its can copy links from google search results, images and videos. 
 
 Here's what it looks like:
