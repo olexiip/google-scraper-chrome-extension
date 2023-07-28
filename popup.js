@@ -14,7 +14,6 @@ function InjectChecker() {
           )
           }
         } else {
-  
         }
       } catch {
   
@@ -31,12 +30,12 @@ function checkPage() {
   let yres = document.querySelectorAll("ul>li>div>div>a:has(h2)");
 
   let x;
-  if (gres.length>0) {
-    x= gres;
+  if (gvideo.length>0) {
+    x= gvideo;
   } else if (gimg.length>0) {
     x= gimg;
-  } else if (gvideo.length>0) {
-    x= gvideo;
+  } else if (gres.length>0) {
+    x= gres;
   } else if (yres.length>0) {
     x= yres;
   } else {
@@ -45,7 +44,7 @@ function checkPage() {
 
   let res = "";
   let resn = "";
-  let counter = 0+0;
+  let counter = 0;
   x.forEach((el) => {
   if (el.href.length>1 && el.offsetWidth>0) {
     counter++;
