@@ -1,7 +1,7 @@
 {
   "name": "Google scraper",
   "description": "application for copying Google search results",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "icons": {
     "16":"icons/16.png",
