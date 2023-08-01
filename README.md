@@ -1,4 +1,5 @@
 # google-scraper-chrome-extension
+https://chrome.google.com/webstore/detail/google-scraper/mmfikgaifiohnjgogmappjikfndpfppl
 ## Chrome extension for copying Google search results
 
 ![img-7](https://github.com/olexiip/google-scraper-chrome-extension/assets/99768521/6df353e9-8605-4ed2-978b-37c093029f25)
