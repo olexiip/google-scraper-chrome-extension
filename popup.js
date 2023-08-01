@@ -27,7 +27,7 @@ function checkPage() {
   let gres = document.querySelectorAll("div:not([id])>div.g>div>div>div a[ping][data-ved]");
   let gimg = document.querySelectorAll("#islrg>div>div>a:nth-child(3)");
   let gvideo = document.querySelectorAll("#search a[data-ved][jsname]");
-  let yres = document.querySelectorAll("ul>li>div>div>a:has(h2)");
+  let yres = document.querySelectorAll("ul>li>div:not(:has(div.Typo_type_greenurl>span))>div>a:has(h2)");
 
   let x;
   if (gvideo.length>0) {
